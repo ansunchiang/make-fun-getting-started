@@ -1,12 +1,14 @@
+# Finder metadata
 .DS_Store
 
-# Local credentials and submission materials
+# Keep local secrets and session bundles out of the public guide.
 .env
 .env.*
 wallet.json
 *-keypair.json
 transcripts*.tar.gz
+makefun-run.json
 
-# Scratch captures and temporary browser data
+# Local browser captures. The published screenshot is tracked separately.
 /.chrome-profile/
 /screenshot-preview.png
