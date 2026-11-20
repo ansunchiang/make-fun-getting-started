@@ -1,0 +1,12 @@
+.DS_Store
+
+# Local credentials and submission materials
+.env
+.env.*
+wallet.json
+*-keypair.json
+transcripts*.tar.gz
+
+# Scratch captures and temporary browser data
+/.chrome-profile/
+/screenshot-preview.png
